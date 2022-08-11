@@ -10,15 +10,15 @@ import SwiftUI
 struct MainTabView: View {
     var body: some View {
         TabView {
-            Text("Posts")
+            PostsView()
                 .tabItem {
                     Label("Posts", systemImage: "camera")
                 }
-            Text("Friends")
+            FriendsView()
                 .tabItem {
                     Label("Friends", systemImage: "person")
                 }
-            Text("Profile")
+            ProfileView()
                 .tabItem {
                     Label("Profile", systemImage: "heart.fill")
                 }
