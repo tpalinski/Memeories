@@ -11,7 +11,7 @@ import SwiftUI
 struct MemeoriesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ColorPreviews()
         }
     }
 }
